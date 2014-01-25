@@ -26,11 +26,6 @@ body {
   max-width: 800px;
 }
 
-.navbar > .container {
-  padding-right:10%;
-  padding-left:10%;
-}
-
 .navbar-default {
   border:none;
   background-color:#ffffff;
