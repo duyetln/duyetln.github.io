@@ -1,43 +1,43 @@
 body {
-  padding-bottom:70px;
-  background-color:#202020;
+  background-color: #eee;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #555;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
-.content {
-  padding-top:30%;
-  color:white;
+.profile {
+  position: fixed;
+  display: block;
+  padding: 70px 15px;
+  border: none;
+  background-color: #303030;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1000;
 }
 
-.content h1 {
-  margin-top:0px;
-  color:#ac4142;
+.profile img.img-circle.img-thumbnail {
+  background-color: #eee;
 }
 
-.content p {
-  color:#ffffff;
-  opacity:0.8;
+.profile ul.nav.nav-sidebar {
+  margin-top: 30px;
 }
 
-.content img {
-  width:100%;
+.profile ul.nav.nav-sidebar > li > a {
+  color: #aaa;
+  padding-left: 20%;
 }
 
-.container {
-  max-width: 800px;
+.profile ul.nav.nav-sidebar > li.active > a {
+  color: #fff;
+  background-color: #d9534f;
 }
 
-.navbar-default {
-  border:none;
-  background-color:#ffffff;
-}
-
-.nav > li > a {
-  padding-left: 7px;
-  padding-right: 7px;
-  opacity: 0.9;
-}
-
-.nav > li > a:hover {
-  opacity: 1;
-  background-color: transparent;
+.profile ul.nav.nav-sidebar > li > a:hover,
+.profile ul.nav.nav-sidebar > li > a:focus {
+  color: #fff;
+  background-color: #d9534f;
 }
