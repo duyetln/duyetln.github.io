@@ -33,11 +33,11 @@ body {
 
 .profile ul.nav.nav-sidebar > li.active > a {
   color: #fff;
-  background-color: #d9534f;
+  background-color: #ac4142;
 }
 
 .profile ul.nav.nav-sidebar > li > a:hover,
 .profile ul.nav.nav-sidebar > li > a:focus {
   color: #fff;
-  background-color: #d9534f;
+  background-color: #ac4142;
 }
