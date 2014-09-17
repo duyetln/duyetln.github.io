@@ -2,10 +2,12 @@
 <html>
   <head>
     <title>Duyet Nguyen</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+    <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+    <link rel='stylesheet' href='css/style.css'>
   </head>
   <body>
     <div class='container'>
@@ -31,7 +33,7 @@
             </ul>
           </div>
         </div>
-        <div class='content col-xs-offset-3 col-xs-9 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9''>
+        <div class='content col-xs-offset-3 col-xs-9 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9'>
           <h1 class='page-header text-primary'>Hi, I'm Duyet</h1>
           <h3>
             I am a Computer Science graduate from University of California, Irvine and is currently working as a Ruby developer.
@@ -39,6 +41,66 @@
           <h3>
             In my free time, I work on personal projects or read books on best coding practice and design patterns.
           </h3>
+          <h1 class='page-header text-primary'>Projects</h1>
+          <div><h3><a href='https://github.com/duyetln/mini-shop'>Mini Shop</a></h3></div>
+          <div class='row'>
+            <div class='col-xs-3 col-sm-3 col-md-3'>
+              <button class='btn btn-link btn-block' data-toggle='modal' data-target='#admin-index'>
+                <img src='img/admin_index.png' class='img-thumbnail img-responsive'>
+              </button>
+            </div>
+            <div class='col-xs-3 col-sm-3 col-md-3'>
+              <button class='btn btn-link btn-block' data-toggle='modal' data-target='#admin-physical-items'>
+                <img src='img/admin_physical_items.png' class='img-thumbnail img-responsive'>
+              </button>
+            </div>
+            <div class='col-xs-3 col-sm-3 col-md-3'>
+              <button class='btn btn-link btn-block' data-toggle='modal' data-target='#admin-create-bundle'>
+                <img src='img/admin_create_bundle.png' class='img-thumbnail img-responsive'>
+              </button>
+            </div>
+            <div class='col-xs-3 col-sm-3 col-md-3'>
+              <button class='btn btn-link btn-block' data-toggle='modal' data-target='#admin-promotion'>
+                <img src='img/admin_promotion.png' class='img-thumbnail img-responsive'>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='modal ' id='admin-index' role='dialog'>
+      <div class='modal-dialog modal-lg'>
+        <div class='modal-content'>
+          <div class='modal-body'>
+            <img class='img-responsive' src='img/admin_index.png'>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='modal ' id='admin-physical-items' role='dialog'>
+      <div class='modal-dialog modal-lg'>
+        <div class='modal-content'>
+          <div class='modal-body'>
+            <img class='img-responsive' src='img/admin_physical_items.png'>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='modal ' id='admin-create-bundle' role='dialog'>
+      <div class='modal-dialog modal-lg'>
+        <div class='modal-content'>
+          <div class='modal-body'>
+            <img class='img-responsive' src='img/admin_create_bundle.png'>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='modal ' id='admin-promotion' role='dialog'>
+      <div class='modal-dialog modal-lg'>
+        <div class='modal-content'>
+          <div class='modal-body'>
+            <img class='img-responsive' src='img/admin_promotion.png'>
+          </div>
         </div>
       </div>
     </div>
