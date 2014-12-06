@@ -1,43 +1,62 @@
 body {
-  background-color: #eee;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  background-color: #e5e5e5;
   color: #555;
-  font-family: 'Trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.profile {
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.page-header {
+  border-color: #ccc;
+}
+
+.demo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#profile {
   position: fixed;
   display: block;
-  padding: 70px 15px;
   border: none;
-  background-color: #303030;
   top: 0px;
-  bottom: 0px;
-  left: 0px;
+  right: 0px;
   z-index: 1000;
+  margin: 10px 5px;
 }
 
-.profile img.img-circle.img-thumbnail {
-  background-color: #eee;
+#links {
+  width:50%;
 }
 
-.profile ul.nav.nav-sidebar {
-  margin-top: 30px;
+#links a {
+  color: #555;
 }
 
-.profile ul.nav.nav-sidebar > li > a {
-  color: #aaa;
-  padding-left: 20%;
+#links a:hover,
+#links a:focus {
+  color: #000;
 }
 
-.profile ul.nav.nav-sidebar > li.active > a {
-  color: #fff;
-  background-color: #ac4142;
+.carousel-control .fa-chevron-left {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  color: #555;
 }
 
-.profile ul.nav.nav-sidebar > li > a:hover,
-.profile ul.nav.nav-sidebar > li > a:focus {
-  color: #fff;
-  background-color: #ac4142;
+.carousel-control .fa-chevron-right {
+  position:absolute;
+  top: 50%;
+  right: 50%;
+  color: #555;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  width: 5%;
 }
