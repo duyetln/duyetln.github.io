@@ -1,0 +1,139 @@
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.instlink {
+  fill: none;
+  stroke: #70c0b1;
+  stroke-width: 1.5px;
+}
+
+.node circle{
+  cursor: pointer;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.rbHClass circle {
+  stroke: #d54e53;
+}
+
+.node.rbHModInclusion circle {
+  stroke: #7aa6da;
+}
+
+.node text {
+  font: 10px sans-serif;
+  font-weight: bold;
+  fill: #333;
+}
+
+.inst circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: #e78c45;
+  stroke-width: 3px;
+}
+
+.inst text {
+  font: 10px sans-serif;
+  font-weight: bold;
+  fill: #333;
+}
+
+.eigen circle {
+  fill: #c397d8;
+  stroke: #c397d8;
+  stroke-width: 3px;
+}
+
+.eigen text {
+  font: 10px sans-serif;
+  font-weight: bold;
+  fill: #333;
+}
+
+.instlink {
+  visibility: hidden;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f3f5f6;
+}
+
+.fill {
+  min-height: 100%;
+  height: 100%;
+}
+
+div.graph {
+  border-right: 1px solid #ccc;
+}
+
+svg {
+  width: 100%;
+  height: 1000px;
+}
+
+.doc {
+  margin-top:5px;
+}
+
+.doc .subdoc {
+  visibility:hidden;
+  width:100%;
+  height:600px;
+}
+
+/* borrowed from jquery.console.js github */
+div.console {
+  font-size: 14px;
+}
+
+div.console div.jquery-console-inner {
+  width: 100%;
+  height: 400px;
+  background: #333;
+  padding: 5px;
+  overflow: auto;
+}
+
+div.console div.jquery-console-prompt-box {
+  color: #fff;
+  font-family: monospace;
+}
+
+div.console div.jquery-console-focus span.jquery-console-cursor {
+  background: #fefefe;
+  color: #333;
+  font-weight: bold;
+
+}
+div.console div.jquery-console-message-error {
+  color: #ef0505;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
+
+div.console div.jquery-console-message-value {
+  color: #1ad027;
+  font-family: monospace;
+  padding: 5px;
+}
+
+div.console div.jquery-console-message-type {
+  color: #52666f;
+  font-family: monospace;
+  padding: 5px;
+}
+
+div.console span.jquery-console-prompt-label { f
+  ont-weight: bold;
+}
+/* borrowed from jquery.console.js github */
+
